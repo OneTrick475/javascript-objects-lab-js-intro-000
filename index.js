@@ -1,3 +1,3 @@
 function updateObjectWithKeyAndValue(object, key, value){
-  var newobject = object[key] = 'value'
+   object[key] = 'value'
 }
