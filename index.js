@@ -1,3 +1,4 @@
 function updateObjectWithKeyAndValue(object, key, value){
-   newobject = object[key] = 'value'
+  var newobject =  object.assign = ({}, object, {[key]: value})
+  return newobject;
 }
